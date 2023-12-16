@@ -11,7 +11,6 @@ public class NumberGuessing {
 		
 		int randomNumber = rand.nextInt(100+1);
 		int tryCount = 0;
-		System.out.println(randomNumber);
 		
 		while(true) {
 			System.out.println("Enter Your Guess (1 to 100)");
